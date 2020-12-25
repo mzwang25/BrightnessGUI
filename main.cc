@@ -11,7 +11,7 @@ main(int argc, char** argv)
 {
   QApplication a(argc, argv);
 
-  auto c = new Counter;
+  Counter* c = new Counter;
   c->show();
 
   return a.exec();
